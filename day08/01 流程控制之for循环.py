@@ -32,9 +32,9 @@
 
 # 案例2：字典循环取值
 # 简单版
-# dic = {'k1':'111','k2':'222','k3':'333'}
-# for k in dic:
-#     print(k,dic[k])
+dic = {'k1':'111','k2':'222','k3':'333'}
+for k in dic:
+    print(k,dic[k])
 
 # 复杂版：while循环可以便利字典，太麻烦了
 
@@ -65,6 +65,9 @@
 # 思考：总不能循环一千次，一万次时，我abc写一千次一万次吧！
 
 # range 功能介绍
+key = {"aa":"123"}
+for k in key:
+    print(k,key[k])
 
 '''
 >>> range(10)

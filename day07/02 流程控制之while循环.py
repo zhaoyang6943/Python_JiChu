@@ -157,7 +157,7 @@ while count < 3:
                 print("命名{x}正在运行".format(x=cmd))
 
         break  # 当输入指令q后，会依旧要执行三遍。所以添加这边登录成功的break，直接退出整个循环
-    else:
+
         print("用户或账户名错误")
         count += 1
 

@@ -14,7 +14,7 @@
 
 # 1.变量的基本使用
 # 原则：先定义，后引用
-name = 'yang'  # 定义
+name:str = 'yang' # 定义
 print(name)  # 引用
 
 """
